@@ -60,7 +60,7 @@ class ListContacts extends Component {
           </div>
         )}
 
-        {showingContacts.length == contacts.length && (
+        {showingContacts.length === contacts.length && (
           <div className="showing-contacts">
             <span> Total Records: {contacts.length}</span>
           </div>
